@@ -171,6 +171,7 @@ p {
     visibility:visible;
 }
 .triangle {
+    top: -2px;
     margin: 0 auto;
     text-align:center;
     width: 0;
@@ -247,7 +248,7 @@ p {
     border-radius:0;
     box-shadow:none;
     text-align:center;
-    background: #191a1c;
+    background: #010100;
 }
 .thumbnail .more {
     display:block;
@@ -277,7 +278,8 @@ p {
 .thumbnail h3,
 .thumbnail p {
     margin:0;
-    padding:0;
+    padding: 10px 30px 0 30px;
+    text-align: left;
     position:relative;
     z-index:4;
 }
@@ -288,6 +290,10 @@ p {
 }
 .thumbnail > p {
     padding-bottom:20px;
+    padding-top: 20px;
+    color: #e2e2e2;
+    text-align: justify;
+    background-color: #000;
 }
 .thumbnail .mask {
     opacity:0.85;
@@ -362,6 +368,7 @@ p {
 }
 .primary-section .triangle {
     border-top: 40px solid #FECE1A;
+    top: -2px;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
@@ -375,6 +382,10 @@ p {
 .primary-section h1 {
     color:#FFF;
 }
+.primary-section .large-text {
+    color: #FFF;
+    line-height: 40px;
+}
 .secondary-section {
     background:#FECE1A;
 }
@@ -387,7 +398,7 @@ p {
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/techbucketlist.svg) no-repeat center;
+    background: #FECE1A;
     border-top:6px solid #FECE1A;
 }
 .third-section .container {
@@ -475,6 +486,9 @@ p {
 .project-info div {
     margin-bottom:5px;
 }
+.project-info a {
+    color: #FFF;
+}
 .close {
     float: right;
     width: 40px;
@@ -560,7 +574,8 @@ p {
     position: relative;
     width: 208px;
     height: 100px;
-    border: 1px solid white;
+    border: 1px solid black;
+    color: #000;
     margin-right: 25px;
 }
 .client-slider li div {
@@ -578,7 +593,8 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#FECE1A;
+    background: #181a1c;
+    color: #FFF;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -612,6 +628,8 @@ p {
     float:left;
     margin-top:10px;
     padding-left:10px;
+    color: #e2e2e2;
+    font-weight: 100;
 }
 .testimonial .whopic small {
     display:block;

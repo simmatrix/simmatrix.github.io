@@ -3031,7 +3031,7 @@
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
+			/* background-repeat: repeat,								no-repeat,	*/												no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
@@ -3192,6 +3192,7 @@
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			width: 50%;
 		}
 
 		#intro + #header {
@@ -3253,8 +3254,12 @@
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				min-height: 380px;
 			}
+
+				#intro p {
+					width: 80%;
+				}
 
 				#intro p br {
 					display: none;
@@ -3270,7 +3275,7 @@
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 380px;
 			}
 
 				#intro h1 {
@@ -3282,6 +3287,7 @@
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
+					width: 80%;
 				}
 
 				#intro .actions {
@@ -4186,7 +4192,7 @@
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
